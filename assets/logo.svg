@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="108" height="108">
+    <!-- Background: Ocean Blue (#007EA7) with rounded corners -->
+    <rect width="108" height="108" rx="24" fill="#007EA7" />
+    <!-- Edge trigger bar (right, semi-transparent white pill) -->
+    <path d="M78,33 Q81,33 81,36 V72 Q81,75 78,75 Q75,75 75,72 V36 Q75,33 78,33 Z" fill="#FFFFFF" fill-opacity="0.3" />
+    <!-- Arrow pointing left -->
+    <path d="M53,38 L30,54 L53,70" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <!-- Circle dot -->
+    <path d="M61,54 m-6,0 a6,6 0 1,1 12,0 a6,6 0 1,1 -12,0" fill="#FFFFFF" fill-opacity="0.8" />
+</svg>

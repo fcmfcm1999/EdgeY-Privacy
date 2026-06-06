@@ -11,41 +11,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            /* Light theme variables */
-            --bg-primary: #f4f6fc;
+            /* Light theme variables (Ocean Theme) */
+            --bg-primary: #ecf3f7;
             --bg-secondary: #ffffff;
-            --text-primary: #1e293b;
-            --text-secondary: #64748b;
-            --accent-primary: #6366f1;
-            --accent-secondary: #06b6d4;
-            --accent-gradient: linear-gradient(135deg, #6366f1 0%, #06b6d4 100%);
-            --card-bg: rgba(255, 255, 255, 0.8);
-            --card-border: rgba(99, 102, 241, 0.08);
-            --card-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05);
-            --badge-bg: rgba(99, 102, 241, 0.1);
-            --badge-text: #4f46e5;
-            --shield-glow: 0 0 30px rgba(99, 102, 241, 0.2);
-            --toggle-bg: #e2e8f0;
-            --code-bg: #f1f5f9;
+            --text-primary: #0f2537;
+            --text-secondary: #4a6572;
+            --accent-primary: #007ea7;
+            --accent-secondary: #00b4d8;
+            --accent-gradient: linear-gradient(135deg, #007ea7 0%, #00b4d8 100%);
+            --card-bg: rgba(255, 255, 255, 0.85);
+            --card-border: rgba(0, 126, 167, 0.08);
+            --card-shadow: 0 10px 30px -10px rgba(0, 126, 167, 0.08);
+            --badge-bg: rgba(0, 126, 167, 0.1);
+            --badge-text: #007ea7;
+            --shield-glow: 0 0 30px rgba(0, 126, 167, 0.2);
+            --toggle-bg: #dce7ee;
+            --code-bg: #e6f0f5;
         }
 
         [data-theme="dark"] {
-            /* Dark theme variables */
-            --bg-primary: #0b0f19;
-            --bg-secondary: #111827;
-            --text-primary: #f8fafc;
-            --text-secondary: #94a3b8;
-            --accent-primary: #818cf8;
-            --accent-secondary: #22d3ee;
-            --accent-gradient: linear-gradient(135deg, #818cf8 0%, #22d3ee 100%);
-            --card-bg: rgba(17, 24, 39, 0.7);
-            --card-border: rgba(255, 255, 255, 0.05);
-            --card-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.5);
-            --badge-bg: rgba(129, 140, 248, 0.15);
-            --badge-text: #a5b4fc;
-            --shield-glow: 0 0 40px rgba(129, 140, 248, 0.3);
-            --toggle-bg: #1f2937;
-            --code-bg: #1e293b;
+            /* Dark theme variables (Ocean Theme) */
+            --bg-primary: #05131d;
+            --bg-secondary: #0c1b26;
+            --text-primary: #f0f6fa;
+            --text-secondary: #8da4be;
+            --accent-primary: #0096c7;
+            --accent-secondary: #00b4d8;
+            --accent-gradient: linear-gradient(135deg, #0096c7 0%, #00b4d8 100%);
+            --card-bg: rgba(12, 27, 38, 0.75);
+            --card-border: rgba(0, 150, 199, 0.08);
+            --card-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.6);
+            --badge-bg: rgba(0, 150, 199, 0.15);
+            --badge-text: #90e0ef;
+            --shield-glow: 0 0 40px rgba(0, 150, 199, 0.35);
+            --toggle-bg: #112635;
+            --code-bg: #132e42;
         }
 
         * {
@@ -76,7 +76,7 @@
             border-radius: 50%;
             filter: blur(80px);
             z-index: -1;
-            opacity: 0.15;
+            opacity: 0.12;
         }
 
         .blur-circle-1 {
@@ -188,10 +188,9 @@
             margin-bottom: 24px;
             border-radius: 24px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 10px 30px rgba(0, 126, 167, 0.15);
             border: 2px solid var(--card-border);
             position: relative;
-            background: #111827; /* Dark logo background matching AVD design */
         }
 
         .logo-container img {
@@ -243,7 +242,7 @@
             margin-bottom: 48px;
             position: relative;
             overflow: hidden;
-            box-shadow: 0 20px 40px rgba(99, 102, 241, 0.25);
+            box-shadow: 0 20px 40px rgba(0, 126, 167, 0.2);
             display: flex;
             align-items: center;
             gap: 28px;
@@ -254,7 +253,7 @@
             position: absolute;
             width: 200px;
             height: 200px;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.08);
             border-radius: 50%;
             top: -50px;
             right: -50px;
@@ -463,7 +462,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+            box-shadow: 0 4px 12px rgba(0, 150, 199, 0.3);
             opacity: 0;
             visibility: hidden;
             transition: all 0.3s ease;
@@ -575,7 +574,7 @@
         <!-- Hero Header -->
         <header>
             <div class="logo-container">
-                <img src="assets/logo.png" alt="EdgeY App Logo">
+                <img src="assets/logo.svg" alt="EdgeY App Logo">
             </div>
             
             <h1 class="lang-en">EdgeY Privacy Policy</h1>
